@@ -1,0 +1,4 @@
+1 Armaghan Male 18 1050 45.00
+3 Abdullaha Male 19 1000207734 5682865.00
+5 Hamza Male 18 435436 345.00
+7 Hamza Female 23 325436236 43232364.00

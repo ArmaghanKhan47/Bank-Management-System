@@ -1,0 +1,7 @@
+printf("%d-%s-%s-%d-%d-%.2f\n",key,&cu.cust_name,&cu.gender,cu.age,cu.cnic,cu.balance);
+							printf("\nEnter Balance:");
+							scanf("%f",&balance);
+							cu.balance = cu.balance - balance;
+							printf("%d-%s-%s-%d-%d-%.2f\n",key,&cu.cust_name,&cu.gender,cu.age,cu.cnic,cu.balance);
+							fseek(record,0,SEEK_END);
+							fprintf(record ,"\n%d %s %s %d %d %.2f",key,&cu.cust_name,&cu.gender,cu.age,cu.cnic,cu.balance);
